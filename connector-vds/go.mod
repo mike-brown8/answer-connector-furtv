@@ -1,4 +1,4 @@
-module github.com/apache/answer-plugins/connector-vds
+module github.com/mike-brown8/answer-connector-furtv/connector-vds
 
 go 1.23.0
 
