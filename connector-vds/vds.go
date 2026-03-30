@@ -49,11 +49,11 @@ var (
 )
 
 type Connector struct {
-	Config             *ConnectorConfig
-	platformSignature  string
-	signatureExpiry    time.Time
-	logoDataURI        string // cached logo data URI
-	mu                 sync.RWMutex
+	Config            *ConnectorConfig
+	platformSignature string
+	signatureExpiry   time.Time
+	logoDataURI       string // cached logo data URI
+	mu                sync.RWMutex
 }
 
 // ConnectorConfig holds VDS-specific OAuth configuration.

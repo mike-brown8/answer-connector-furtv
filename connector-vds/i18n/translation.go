@@ -26,8 +26,8 @@ const (
 	ConnectorName   = "plugin.vds_connector.backend.info.name"
 
 	// Config fields (only essential credentials)
-	ConfigClientIDTitle       = "plugin.vds_connector.backend.config.client_id.title"
-	ConfigClientIDDescription = "plugin.vds_connector.backend.config.client_id.description"
-	ConfigClientSecretTitle   = "plugin.vds_connector.backend.config.client_secret.title"
+	ConfigClientIDTitle           = "plugin.vds_connector.backend.config.client_id.title"
+	ConfigClientIDDescription     = "plugin.vds_connector.backend.config.client_id.description"
+	ConfigClientSecretTitle       = "plugin.vds_connector.backend.config.client_secret.title"
 	ConfigClientSecretDescription = "plugin.vds_connector.backend.config.client_secret.description"
 )

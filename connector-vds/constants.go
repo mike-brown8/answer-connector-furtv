@@ -24,10 +24,10 @@ const (
 	ConnectorDisplayName = "VDS Account"
 
 	// OAuth endpoints (hardcoded to VDS official endpoints)
-	AuthorizeURL   = "https://account.vds.pub/authorize"
-	TokenURL       = "https://open-global.vdsentnet.com/api/proxy/account/sso/token"
-	UserInfoURL    = "https://open-global.vdsentnet.com/api/proxy/account/sso/userinfo"
-	SignatureURL   = "https://open-global.vdsentnet.com/api/auth/token" // Platform signature exchange endpoint
+	AuthorizeURL = "https://account.vds.pub/authorize"
+	TokenURL     = "https://open-global.vdsentnet.com/api/proxy/account/sso/token"
+	UserInfoURL  = "https://open-global.vdsentnet.com/api/proxy/account/sso/userinfo"
+	SignatureURL = "https://open-global.vdsentnet.com/api/auth/token" // Platform signature exchange endpoint
 
 	// OAuth scope (fixed scope)
 	DefaultScope = "openid,profile"
