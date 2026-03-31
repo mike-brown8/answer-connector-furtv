@@ -33,7 +33,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/apache/answer-plugins/connector-vds/i18n"
+	"github.com/mike-brown8/answer-connector-furtv/connector-vds/i18n"
 	"github.com/apache/answer-plugins/util"
 	"github.com/apache/answer/plugin"
 	"github.com/segmentfault/pacman/log"
